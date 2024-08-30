@@ -1,0 +1,57 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+
+.contanier{
+background-color: rgb(243, 187, 67);
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center; 
+}
+
+.parent{
+    color:black;
+ background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 15px;
+    border-radius: 5px;
+  }
+  .parent img{
+    width: 300px;
+    border-radius: 3%;
+    align-items: center;
+  }
+  .child{
+    background-color: rgb(243, 187, 67) ;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 3px;
+  }
+  .childd{
+    color: rgb(70, 70, 70);
+  }
+  .parent h1{
+    font-size: large;
+  }
+  .childdd{
+    color: rgb(177, 174, 174);
+  }
+
+  .grand{
+display: flex;
+
+    align-items: center;
+    gap: 15px;
+
+  }
+  .grand img{
+    width: 50px;
+    border-radius: 50%;
+  }
